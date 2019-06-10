@@ -1,0 +1,19 @@
+body {
+  /* background-color: #000; */
+}
+.container {
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.container__animation {
+  width: 50%;
+  float: left;
+}
